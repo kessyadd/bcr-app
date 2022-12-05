@@ -50,6 +50,7 @@ const Testimonials = () => {
                     src={Photo1}
                     className="tes-photo"
                     style={{ width: "5em", display: "block" }}
+                    alt="user"
                   />
                 </div>
                 <div className="col-lg-8">
@@ -61,6 +62,7 @@ const Testimonials = () => {
                       marginTop: "1em",
                       marginBottom: "1em",
                     }}
+                    alt="rate"
                   />
                   <p className="text-left">
                     <q className="fw-bold">
@@ -81,6 +83,7 @@ const Testimonials = () => {
                     src={Photo2}
                     className="tes-photo"
                     style={{ width: "5em", alignSelf: "center" }}
+                    alt="user"
                   />
                 </div>
                 <div className="col-lg-8">
@@ -92,6 +95,7 @@ const Testimonials = () => {
                       marginTop: "1em",
                       marginBottom: "1em",
                     }}
+                    alt="rate"
                   />
                   <p className="text-left">
                     <q className="fw-bold">
@@ -108,7 +112,12 @@ const Testimonials = () => {
             <div className="item">
               <div className="row testimonial-card flex align-items-center">
                 <div className="col-lg-4" id="ph">
-                  <img src={Photo1} id="tes-photo" style={{ width: "5em" }} />
+                  <img
+                    src={Photo1}
+                    id="tes-photo"
+                    style={{ width: "5em", alignSelf: "center" }}
+                    alt="user"
+                  />
                 </div>
                 <div className="col-lg-8">
                   <img
@@ -119,6 +128,7 @@ const Testimonials = () => {
                       marginTop: "1em",
                       marginBottom: "1em",
                     }}
+                    alt="rate"
                   />
                   <p className="text-left">
                     <q className="fw-bold">
